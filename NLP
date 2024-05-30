@@ -3,3 +3,30 @@ NLP- Natural language processing
 AI > ML > DL > Gen AI 
 NLP( ML > DL > AI)
 
+The domains of NLP like speech recognition, sentiment analysis, speech tagging, then word senses, natural language generation and others.
+
+Tokenization- the process of splitting a paragraph, string or text into words or sentences.
+
+Preprocessing- The process of converting a data into something that computer can understand is called preprocessing.
+So one of the major forms of preprocessing is filtering out that part of the data, which doesn't carries any information.
+Or we can say that part of the data which is considered as redundant.
+
+Stop Words- in natural language processing, the redundant words or the redundant data is referred as stopwords.
+
+Stemming is the process of mapping group of words together to the same step.
+
+Lamenting - lamenting is the process of mapping group of words and ensuring that it belongs to a particular language and a citation.
+
+
+
+Day 1 Part 1 Hands on Exercise: 
+ 
+1.  **Word Tokenization**: Write a Python function that takes a sentence as input and uses the `word_tokenize` function from the `nltk` library to tokenize the sentence into words. Print the list of tokens.
+ 
+2. **Sentence Tokenization**: Write a Python function that takes a paragraph as input and uses the `sent_tokenize` function from the `nltk` library to tokenize the paragraph into sentences. Print the list of sentences.
+ 
+3. **Stopwords Removal**: Write a Python function that takes a sentence as input, removes stopwords using the `stopwords` corpus from the `nltk` library, and prints the sentence without stopwords.
+ 
+4. **Frequency Distribution**: Write a Python function that takes a text as input, calculates the frequency distribution of words using the `FreqDist` class from the `nltk` library, and prints the top 5 most common words and their frequencies.
+ 
+5. **Word Cloud**: Write a Python script that reads a text file, uses the `WordCloud` library to generate a word cloud from the text, and displays the word cloud image.
