@@ -1,2 +1,20 @@
-keyke
-'sk-GiemZWKyGBMQPex8qDthT3B1bkFJB90ZBBh4xuhafucOg7'
+import openai
+
+openai.api_key="sk-proj-ORriy8ZlkFJy54bbPVktNCxaB_MghBC3mOeqJ-"
+
+def gpt_response(prompt):
+    response = openai.chat.completions.create(
+        model="gpt-4o-mini",
+        messages=[
+        {"role": "user", "content": prompt}],
+        #max_tokens=100,
+        temperature=0,
+        n=1)
+    return response.choices[0].message.content.strip()
+
+#answer=gpt_response("what is the color of an apple")
+answer=gpt_response("what is the capital of India")
+print(answer)
+
+#rVcbJUXT2KgPeihGpCRF6RJvAo_
+#IA5cywQVVT3BlbkFJygVbAwgohoD35W2dQgiTye0HFNWAweR3suhNFLgyfrpdOhly99cgZiEy2UCcAFr4KNBtOKqhAA
